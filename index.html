@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo 4 - Extra 2</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="header">RESERVAS</h1>
+        <div class="wrapper-content">
+            <div class="room">
+                <select name="room" id="room">
+                    <option value="standard" id="standard">Habitación Standard</option>
+                    <option value="juniorSuite" id="juniorSuite">Habitación Junior Suite</option>
+                    <option value="suite" id="suite">Habitación Suite</option>
+                </select>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <span class="spa">Uso del SPA o no</span>
+            </div>
+
+            <div class="category-room">
+                <select name="category-room" id="category-room">
+                    <option value="single-room" id="single-room">Habitación Inividual</option>
+                    <option value="double-room" id="double-room">Habitación Doble</option>
+                    <option value="triple-room" id="triple-room">Habitación Triple</option>
+                </select>
+            </div>
+
+            <div class="nights">
+                <span class="number-nights">Número de noches</span>
+                <input type="number" name="number-nights" id="number-nights" value="1">
+            </div>
+
+            <div class="parking">
+                <span class="parking-nights">¿Cuántas noches de parking desea?</span>
+                <input type="number" name="parking-nights" id="parking-nights" value="0">
+            </div>
+
+        </div>
+
+        <div class="result">
+            <h2 id="result"></h2>
+            <h2 id="result2"></h2>
+        </div>
+
+        <div class="button">
+            <button type="button" id="button">Calcular</button>
+        </div>
+        
+    </div>
+
+
+    <script type="text/javascript" src="./js/site.js"></script>
+</body>
+
+</html>
